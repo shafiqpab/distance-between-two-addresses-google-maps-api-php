@@ -1,13 +1,5 @@
 
-/**
-*
-* Author: CodexWorld
-* Function Name: getDistance()
-* $addressFrom => From address.
-* $addressTo => To address.
-* $unit => Unit type.
-*
-**/
+
 function getDistance($addressFrom, $addressTo, $unit){
     //Change address format
     $formattedAddrFrom = str_replace(' ','+',$addressFrom);
